@@ -1,4 +1,4 @@
-import{d as o,j as t}from"./index-CljS2QTo.js";const r="/goit-expenses-tracker/assets/404-page-not-found-Dz5fLVJR.png",e=o.div`
+import{d as o,j as t}from"./index-Ci1EFKRz.js";const r="/goit-expenses-tracker/assets/404-page-not-found-Dz5fLVJR.png",e=o.div`
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: auto;

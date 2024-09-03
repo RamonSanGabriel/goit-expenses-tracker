@@ -1,4 +1,4 @@
-import{d as i,e as t}from"./index-CljS2QTo.js";const n=i.img`
+import{d as i,e as t}from"./index-Ci1EFKRz.js";const n=i.img`
   width: 335px;
   height: 381px;
   object-fit: cover;

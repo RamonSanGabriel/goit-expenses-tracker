@@ -1,4 +1,4 @@
-import{d as e,a as S,r as p,j as s,L as v,l as P,Q as m,u as c,s as y,c as I,N as L}from"./index-CljS2QTo.js";import{W as E,S as W,E as x,a as k,b as T,c as C,P as D,d as F,B as H,L as N,f as V,H as $,g as A,h as B,i as q,T as z,I as G,j as M,k as Q}from"./Register.styled-DYlP4VbW.js";import{T as R}from"./TotalIncome-CHDipktZ.js";import{u as U}from"./index.esm-CONwXJ2l.js";import{A as Y,h as J,a as K}from"./Rectangle 1x-Id0F9en5.js";e.form`
+import{d as e,a as S,r as p,j as s,L as v,l as P,Q as m,u as c,s as y,c as I,N as L}from"./index-Ci1EFKRz.js";import{W as E,S as W,E as x,a as k,b as T,c as C,P as D,d as F,B as H,L as N,f as V,H as $,g as A,h as B,i as q,T as z,I as G,j as M,k as Q}from"./Register.styled-BVqESrJI.js";import{T as R}from"./TotalIncome-DrcGIIUs.js";import{u as U}from"./index.esm-CqjtqzIW.js";import{A as Y,h as J,a as K}from"./Rectangle 1x-Cic7Bc_W.js";e.form`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
