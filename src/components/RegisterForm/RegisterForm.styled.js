@@ -227,7 +227,6 @@ export const StyledPasswordInput = styled.input`
 `;
 
 export const PasswordToggle = styled.button`
-  /* ваші стилі для кнопки показу/приховування пароля тут */
   display: flex;
   position: absolute;
   top: 50%;
@@ -282,7 +281,7 @@ export const Spn = styled.div`
 export const PasswordMessage = styled.p`
   font-size: 12px;
   /* color: #0ef387; */
-  color: ${props => (props.$isGood ? '#0ef387' : '#E74A3B')};
+  color: ${(props) => (props.$isGood ? '#0ef387' : '#E74A3B')};
   margin-top: 5px;
   padding-left: 12px;
 `;

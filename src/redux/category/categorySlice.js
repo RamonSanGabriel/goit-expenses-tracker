@@ -27,7 +27,7 @@ const categoriesSlice = createSlice({
     },
   },
 
-  extraReducers: builder => {
+  extraReducers: (builder) => {
     builder
       .addCase(getCategoriesThunk.fulfilled, (state, { payload }) => {
         state.categories = payload;
@@ -35,22 +35,22 @@ const categoriesSlice = createSlice({
       })
       .addCase(deleteCategoryThunk.fulfilled, (state, { payload }) => {
         const deletingIncCategory = state.categories?.incomes?.find(
-          category => category._id === payload
+          (category) => category._id === payload
         );
         const deletingExpCategory = state.categories?.expenses?.find(
-          category => category._id === payload
+          (category) => category._id === payload
         );
 
         if (deletingIncCategory) {
           state.categories.incomes = state.categories?.incomes?.filter(
-            category => category !== deletingIncCategory
+            (category) => category !== deletingIncCategory
           );
           toast.info('You deleted the category successfully');
         }
 
         if (deletingExpCategory) {
           state.categories.expenses = state.categories?.expenses?.filter(
-            category => category !== deletingExpCategory
+            (category) => category !== deletingExpCategory
           );
           toast.info('You deleted the category successfully');
         }
@@ -59,7 +59,7 @@ const categoriesSlice = createSlice({
       })
       .addCase(createCategoryThunk.fulfilled, (state, { payload }) => {
         const addedCategory = state.categories[payload.type]?.find(
-          category => category?.categoryName === payload?.categoryName
+          (category) => category?.categoryName === payload?.categoryName
         );
 
         if (addedCategory) {
@@ -94,10 +94,10 @@ const categoriesSlice = createSlice({
       })
       .addCase(updateCategoryThunk.fulfilled, (state, { payload }) => {
         const incomeCategory = state.categories?.incomes?.find(
-          category => category._id === payload._id
+          (category) => category._id === payload._id
         );
         const expenseCategory = state.categories?.expenses?.find(
-          category => category._id === payload._id
+          (category) => category._id === payload._id
         );
 
         if (incomeCategory) {
